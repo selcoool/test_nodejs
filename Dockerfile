@@ -2,14 +2,16 @@ FROM node:22
 
 WORKDIR /home/test_nodejs
 
-
 COPY package.json .
 
 
 RUN npm install
 
 
-CMD [ "npm","start" ]
+COPY . .
+
+
+CMD ["npm","start"]
 
 
 
