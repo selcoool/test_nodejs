@@ -7,11 +7,11 @@ app.get('/', (req, res) => {
 })
 
 app.get('/sua', (req, res) => {
-  res.send('oppppp')
+  res.send('sua')
 })
 
 app.get('/about', (req, res) => {
-  res.send('oppppp')
+  res.send('about')
 })
 
 app.listen(port, () => {
