@@ -10,6 +10,10 @@ app.get('/sua', (req, res) => {
   res.send('oppppp')
 })
 
+app.get('/about', (req, res) => {
+  res.send('oppppp')
+})
+
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
 })
